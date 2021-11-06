@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logined</title>
+</head>
+<body>
+    <h2 style="text-align: center;">You logined Successfully</h2>
+     
+    <% let index = accounts[0].email.indexOf('@') %> 
+
+    <h3 style="text-align: center;">Welcome back <%= accounts[0].email.slice(0,index) %> </h3>
+</body>
+</html>

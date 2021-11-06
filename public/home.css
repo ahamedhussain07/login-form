@@ -1,0 +1,31 @@
+section{
+    display: flex;
+    
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ #login{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+#sign{
+    position: relative;
+    left: 60px;
+    bottom: 17px;
+}
+label{
+    color: whitesmoke;
+}
+
+/* #email{
+    position: relative;
+    top: 10px;
+} */
